@@ -7,7 +7,7 @@ if (isset($_SESSION["userId"])) {
     $user = $userId !== 0 && !IsVariableIsSetOrEmpty($_SESSION['user']) ? $_SESSION['user'] : [];
 }
 ?>
-<footer class="mt-10 bg-dark" style="background-color: #1c4b7b;">
+<footer class="mt-10" style="background-color: #1c4b7b;">
     <div class="container">
         <div class="row ">
             <div class="col-md-4 text-center text-md-left ">
